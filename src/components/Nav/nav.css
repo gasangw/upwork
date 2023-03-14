@@ -1,0 +1,32 @@
+.second-nav {
+  display: flex;
+  align-items: start;
+}
+
+.nav-items {
+  margin-left: -4.5rem;
+}
+
+.nav-item1:hover {
+    text-decoration: underline;
+}
+
+.nav-item2:hover {
+    text-decoration: underline;
+}
+
+.nav-item3:hover {
+    text-decoration: underline;
+}
+
+.nav-item4:hover {
+    text-decoration: underline;
+}
+
+.nav-item5:hover {
+    text-decoration: underline;
+}
+
+.nav-item6:hover {
+    text-decoration: underline;
+}

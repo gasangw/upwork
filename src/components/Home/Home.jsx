@@ -3,7 +3,7 @@ import microsoftLogo from "../img/microsoft.svg";
 import airbnb from "../img/airbnb.svg";
 import bissell from "../img/bissell.svg";
 import Glob from "../img/globe@1x.jpg";
-import './home.css'
+import './home.css';
 
 const Home = () => {
   return (
