@@ -59,9 +59,52 @@
 
 /* styling for card2 */
 .wrapper-cont {
-    height: 100vh;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 90%;
+    height: 100vh;
+    text-align: left;
+    padding: 1.5rem;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+
+.card-wrapper {
+  display: flex;
+  transform: translateY(3rem);
+}
+
+.talent {
+  font-size: 4rem;
+  width: 30%;
+  padding-top: 4rem;
+  font-weight: 700;
+}
+
+.talent,
+.talent-meso {
+  font-family: 'Noto Serif Lao', serif;
+}
+
+.talent-meso {
+  width: 46%;
+  font-weight: 500;
+}
+
+.cards-sector {
+  max-width: 100%;
+  width: 33.3%;
+  margin: 0 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: #108a00;
+}
+
+.cards-sector:hover {
+  color: #108a00;
+  background-color: #fff;
 }
