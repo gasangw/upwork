@@ -7,7 +7,7 @@ import './about.css'
 
 const About = ()=> {
   return (
-    <div className='wrapper'>
+    <div className='wrapper mt-3'>
       <div>
          <img src={gif} alt='gif' className='gif'/>
       </div>

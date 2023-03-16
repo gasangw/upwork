@@ -1,11 +1,12 @@
 .wrapper {
     display: grid;
+    width: 90%;
     grid-template-columns: 1fr 2fr;
     gap: 0.7rem;
     color: #001e00;
+    margin: 0 auto;
     font-family: 'Noto Serif Lao', serif;
     justify-items: start;
-    padding: 2rem;
 }
 
 .text-wrap {

@@ -1,0 +1,53 @@
+.main-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.main-wrapper > h1 {
+  color: #001e00;
+ 
+}
+
+.main-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.each-card {
+  width: 18rem;
+  margin: 0.6rem 0.2rem;
+  padding: 0.7rem;
+  background-color: #f7faf7;
+}
+
+.each-card:hover {
+    background-color: #f2f7f2;
+}
+
+.star-skills {
+  display: flex;
+  color: #5e6d55;
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+
+.star {
+  color: #108a00;
+  margin-right: 3px;
+}
+
+.each-card > h4 {
+  color: 001e00;
+  font-family: 'Noto Serif Lao', serif;
+  font-size: calc(1.2rem + 0.3vw);
+}
+
+.link-browser {
+  color: #5e6d55;
+  font-size: 1.1rem;
+}
+
+.link-browser > a {
+  color: #108a00;
+}

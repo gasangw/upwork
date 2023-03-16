@@ -1,10 +1,12 @@
 .second-nav {
   display: flex;
-  align-items: start;
+  width: 100%;
+  position: fixed;
+  align-items: flex-start;
 }
 
 .nav-items {
-  margin-left: -4.5rem;
+  margin-left: 0.5rem;
 }
 
 .nav-item1:hover {
@@ -27,6 +29,6 @@
     text-decoration: underline;
 }
 
-.nav-item6:hover {
+#nav-item6:hover {
     text-decoration: underline;
 }

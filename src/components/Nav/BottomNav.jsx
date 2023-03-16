@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -6,18 +6,25 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './nav.css';
 
 const BottomNav = ()=> {
+  const [show, setShow] = useState(false)
+  const showDropDown = () => {
+    setShow(!show)
+  }
+  const hideDropDown =() => {
+    setShow(false)
+  }
   return (
     <Navbar collapseOnSelect expand="lg" bg="white" variant="white" className='second-nav'>
-      <Container>
+      <div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="nav-items">
-          <Nav.Link href="#features" className="nav-item">Development & IT</Nav.Link>
-            <Nav.Link href="#features" className="nav-item">Design & Creative</Nav.Link>
-            <Nav.Link href="#pricing" className="nav-item">Sales & Marketing</Nav.Link>
-            <Nav.Link href="#pricing" className="nav-item">Writing & Translation</Nav.Link>
-            <Nav.Link href="#pricing" className="nav-item">Admin & Customer Support</Nav.Link>
-            <NavDropdown title="More" className='nav-item' id="collasible-nav-dropdown">
+          <Nav.Link href="#features" className="nav-item1">Development & IT</Nav.Link>
+            <Nav.Link href="#features" className="nav-item2">Design & Creative</Nav.Link>
+            <Nav.Link href="#pricing" className="nav-item3">Sales & Marketing</Nav.Link>
+            <Nav.Link href="#pricing" className="nav-item4">Writing & Translation</Nav.Link>
+            <Nav.Link href="#pricing" className="nav-item5">Admin & Customer Support</Nav.Link>
+            <NavDropdown title="More" show={show} onMouseEnter={showDropDown} onMouseLeave={hideDropDown} className='nav-item6' id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Finance & Accounting</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                  HR & Training
@@ -30,7 +37,7 @@ const BottomNav = ()=> {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
   )
 }
