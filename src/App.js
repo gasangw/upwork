@@ -7,10 +7,12 @@ import Card1 from './components/cards/Card1';
 import SecondCard from './components/cards/Card2';
 import Footer from './components/footer/Footer';
 import Card3 from './components/cards/Card3';
+import Topnav from './components/Nav/Topnav';
 
 function App() {
   return (
     <div className="App">
+      <Topnav />
       <BottomNav />
       <Home />
       <About />

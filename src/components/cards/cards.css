@@ -108,3 +108,46 @@
   color: #108a00;
   background-color: #fff;
 }
+
+/* styling card 3 */
+
+.card-box {
+  display:grid;
+  gap: 1rem;
+  width: 90%;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #1f57c3;
+  grid-template-columns: 1fr 1fr;
+}
+
+.girlLaptop {
+  max-width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.next-to-girl-pic {
+  text-align: left;
+}
+
+.work {
+  font-size: 4rem;
+  font-family: 'Noto Serif Lao', serif;
+  font-weight: 700; 
+}
+
+.clients {
+  width: 65%;
+  padding-bottom: 8rem;
+}
+
+.opportunities {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.opp {
+  color: #1f57c3; 
+}
