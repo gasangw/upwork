@@ -1,0 +1,231 @@
+/* styling card1 */
+.container {
+    display: grid;
+    width: 90%;
+    padding: 0;
+    grid-template-columns: 70% 30%;
+}
+
+.enter-section {
+    border-radius: 10px 0 0 10px;
+}
+
+.how {
+   color: #91e6b3; 
+}
+
+.company-title {
+  font-family: 'Noto Serif Lao', serif;
+}
+
+.enter-section {
+  text-align: left;
+  background-color: #13544e;
+  color: #fff;
+  padding:1rem 3rem 5rem 2rem ;
+}
+
+.skill > li {
+  display: flex;
+  padding: 0;
+}
+
+.skill span {
+  color: #91e6b3;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.icon-skill {
+  background-color: #13544e;
+  width: 1.2rem;
+  height: 1.3rem;
+  margin-right: 5px;
+}
+
+.enterprise {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.btn-info {
+  border-radius: 25px;
+  color: #13544e;
+  font-weight: 500;
+  padding: 0.5rem 1.6rem;
+  background-color: #fff;
+}
+
+/* styling for card2 */
+.wrapper-cont {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+    text-align: left;
+    padding: 1.5rem;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+
+.card-wrapper {
+  display: flex;
+  transform: translateY(3rem);
+}
+
+.talent {
+  font-size: 4rem;
+  width: 30%;
+  padding-top: 4rem;
+  font-weight: 700;
+}
+
+.talent,
+.talent-meso {
+  font-family: 'Noto Serif Lao', serif;
+}
+
+.talent-meso {
+  width: 46%;
+  font-weight: 500;
+}
+
+.cards-sector {
+  max-width: 100%;
+  width: 33.3%;
+  margin: 0 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: #108a00;
+}
+
+.cards-sector:hover {
+  color: #108a00;
+  background-color: #fff;
+}
+
+/* styling card 3 */
+
+.card-box {
+  display:grid;
+  gap: 1rem;
+  width: 90%;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #1f57c3;
+  grid-template-columns: 1fr 1fr;
+}
+
+.girlLaptop {
+  max-width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.next-to-girl-pic {
+  text-align: left;
+}
+
+.work {
+  font-size: 4rem;
+  font-family: 'Noto Serif Lao', serif;
+  font-weight: 700; 
+}
+
+.clients {
+  width: 65%;
+  padding-bottom: 8rem;
+}
+
+.opportunities {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.opp {
+  color: #1f57c3; 
+}
+
+@media(max-width: 769px){
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .enter-section {
+    padding:1rem 1rem 2rem 1rem ;
+  }
+
+  .btn-info {
+    padding: 0.5rem 3.6rem;
+  }
+
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    transform: translateY(0.3rem);
+  }
+
+  .wrapper-cont {
+    height: 100%;
+    padding: 0.3rem;
+    background-position: center;
+  }
+
+  .talent {
+    font-size: 1.2rem;
+    width: 80%;
+    padding-top: 0.4rem;
+    font-weight: 600;
+  }
+
+  .talent-meso {
+    width: 100%;
+    font-weight: 300;
+  }
+
+  .cards-sector {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .girlLaptop {
+    border-radius: 10px;
+  }
+
+  .work {
+    font-size: 1.4rem;
+    font-weight: 600; 
+  }
+
+  .clients {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+
+  .opportunities {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .opp {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+  }
+
+}

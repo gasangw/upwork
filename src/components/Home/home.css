@@ -1,0 +1,75 @@
+.Home-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.data-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10.5rem;
+}
+
+.text-holder {
+  text-align: left;
+}
+
+.title {
+  color: #14a800;
+  font-weight: 700;
+  font-family: 'Noto Serif Lao', serif;
+  font-size: 4.3rem;
+  line-height: 3.5rem;
+}
+
+.title-text {
+  color: #5e6d55;
+  font-size: 1.5rem;
+  font-family: 'Alatsi', sans-serif;
+}
+
+.btn-success {
+    background-color: #108a00;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-success:hover {
+    background-color: #14a800;
+}
+
+.art-craft {
+    max-width: 100%;
+    height: 30rem;
+}
+
+.logo-sec {
+    display: flex;
+    gap: 1rem;
+}
+
+.trust {
+    color: #9aaa97;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+@media(max-width: 769px){
+    .art-craft {
+       display: none;
+    }
+
+    .title-text {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}

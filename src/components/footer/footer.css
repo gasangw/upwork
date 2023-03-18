@@ -1,0 +1,58 @@
+.foot-cont {
+    color: #fff;
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+    background-color: #001e00;
+}
+
+.foot-container {
+    display: grid;
+    list-style: none;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.icon-sections {
+    display: flex;
+    padding-top: 7rem;
+    gap: 10px;
+}
+
+.last-icon-sections {
+    display: flex;
+    gap: 1rem;
+}
+
+.last-icon-sections > p {
+   font-size: 0.8rem;
+}
+
+.toogle-footer {
+    text-align: left;
+}
+
+.lists > li {
+    list-style: none;
+    padding: 5px;
+}
+
+.lists > li:hover {
+    text-decoration: underline;
+}
+
+.top-title {
+    margin-left: 2rem;
+}
+
+.mobile {
+    margin-left: auto;
+}
+
+.most-icon > li {
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 5px;
+    text-align: center;
+    padding: 5px 10px;
+}
