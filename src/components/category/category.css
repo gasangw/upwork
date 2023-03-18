@@ -51,3 +51,14 @@
 .link-browser > a {
   color: #108a00;
 }
+
+@media(max-width: 769px){
+  .main-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .each-card {
+    max-width: 100%;
+  }
+}

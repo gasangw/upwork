@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="Home-container">
       <div className="data-layout">
-        <div className="text-holder mt-5">
+        <div className="text-holder">
           <h1 className="title mb-4">
             How work
             <br /> should work

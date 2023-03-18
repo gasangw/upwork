@@ -54,3 +54,27 @@
 .gif {
     height: 100%;
 }
+
+@media(max-width: 769px){
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gif {
+        max-width: 100%;
+    }
+
+    .buttons { 
+       display: flex;
+       flex-direction: column;
+    }
+
+    .wrap-heading {
+        margin-left: 0.3rem;
+    }
+
+    .work-description {
+        margin-left: 2.5rem;
+    }    
+}

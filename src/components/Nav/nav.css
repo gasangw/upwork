@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Montserrat:wght@300&family=Nanum+Gothic:wght@400;700&family=Noto+Serif+Lao:wght@300;400;500;700;800&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;400;700&display=swap');
+.whole-nav {
+  display: block;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 99;
+}
+
 .second-nav {
   display: flex;
-  width: 100%;
-  position: fixed;
+  margin-bottom: 2rem;
   align-items: flex-start;
 }
 
@@ -31,4 +39,56 @@
 
 #nav-item6:hover {
     text-decoration: underline;
+}
+
+/* 
+top navbar */
+.nav-wrapper {
+    border-bottom: 1px solid rgb(181, 178, 178);
+    display: flex;
+    margin-right: 1.2rem;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 0.2rem;
+    justify-content: baseline;
+}
+
+.search-area {
+  border: 2px solid rgb(181, 178, 178);
+  display: flex;
+  padding-left: 3px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-part {
+  border: none;
+  outline: none;
+}
+
+#dropdown-basic {
+    background-color: #fff;
+    color: #001e00;
+    font-size: 15px;
+}
+
+.drop-talent-items {
+    display: flex;
+    justify-content: baseline;
+    gap: 3px;
+}
+
+.logo {
+    color: #14a800;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family:'Courgette', cursive;;
 }

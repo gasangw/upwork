@@ -8,7 +8,7 @@
 .data-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 1rem;
+    margin-top: 10.5rem;
 }
 
 .text-holder {
@@ -57,4 +57,19 @@
     color: #9aaa97;
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+@media(max-width: 769px){
+    .art-craft {
+       display: none;
+    }
+
+    .title-text {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
 }

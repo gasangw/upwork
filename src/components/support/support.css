@@ -1,0 +1,35 @@
+.support-main {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.3rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f7faf7;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heart-hand {
+    max-width: 100%;
+    text-align: right;
+    width: 10rem;
+    height: 7rem;
+}
+
+.support-text {
+  text-align: left;
+}
+
+.heart-holder {
+  padding-top: 1rem;
+  text-align: end;
+}
+
+.support-text > h1{
+  color: #001e00;
+}
+
+.support-text > p{
+    color: #5e6d55;
+}
+

@@ -7,19 +7,23 @@ import Card1 from './components/cards/Card1';
 import SecondCard from './components/cards/Card2';
 import Footer from './components/footer/Footer';
 import Card3 from './components/cards/Card3';
-import Topnav from './components/Nav/Topnav';
+import Support from './components/support/Support';
+import Skill from './components/skill/Skill';
+import Business from './components/business/Business';
 
 function App() {
   return (
     <div className="App">
-      <Topnav />
       <BottomNav />
       <Home />
       <About />
       <Categories />
       <Card1 />
       <SecondCard />
+      <Business />
       <Card3 />
+      <Support />
+      <Skill />
       <Footer />
     </div>
   );

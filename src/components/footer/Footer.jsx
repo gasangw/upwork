@@ -158,34 +158,3 @@ const Footer = () => {
 };
 
 export default Footer;
-{
-  /* <div className='icon-container'>
-<div className='last-icon-sections'>
-  <h5>Follow us</h5>
-   <ul className='d-flex lists '>
-     <li>< FaFacebookF/></li>
-     <li><GrLinkedinOption/></li>
-     <li><BsTwitter /></li>
-     <li><BsYoutube /></li>
-     <li><BsInstagram  /></li>
-   </ul>
-   <h5>Mobile app</h5>
-   <ul className='d-flex lists '>
-     <li><AiFillApple /></li>
-     <li><AiFillAndroid /></li>
-   </ul>
-</div>
-<hr />
-<div className='last-icon-sections'>
-  <h5 className='d-flex'>
-     <AiOutlineCopyrightCircle />
-     2015 - 2023 Upwork® Global Inc.
-  </h5>
-  <p><a href=''></a>Terms of Service</p>
-  <p><a href=''></a>Privacy Policy</p>
-  <p><a href=''></a>CA Notice at Collection</p>
-  <p><a href=''></a>Cookie Settings</p>
-  <p><a href=''></a>Accessibility</p>
-</div>
-</div> */
-}

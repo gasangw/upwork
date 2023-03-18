@@ -1,0 +1,73 @@
+.business-cont {
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  grid-template-columns: 65% 30%;
+  text-align: left;
+  gap: 5%;
+  margin-top: 6rem;
+}
+
+.business-description {
+    background-color: #f2f7f2;
+    border-radius: 10px;
+    padding: 4rem 2rem;
+}
+
+.business-card-two {
+    background-color: #14a800;
+    border-radius: 8px;
+    color: #fff;
+    padding: 16rem 0.3rem 0 1rem;
+}
+
+.mycart {
+    max-width: 100%;
+    position: absolute;
+    height: 80%;
+    left: 50%;    
+    transform: translateY(-120%);
+}
+
+.business-description > h1 {
+    color: #001e00;
+    font-size: 4rem;
+    font-family: 'Noto Serif Lao', serif;
+    font-weight: 500;
+}
+
+.each-sec {
+    display: grid;
+    justify-content: baseline;
+    grid-template-columns: 5% 95%;
+    gap: 2%;
+}
+
+.mdstar {
+    font-size: 1.6rem;
+}
+
+.mdhead {
+  font-size: 2rem;
+}
+
+.mdtext {
+    font-size: 1.2rem;
+    width: 80%;
+    color: #5e6d55;
+}
+
+.business-card-two > h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    font-family: Helvetica, sans-serif;
+}
+
+.aistar {
+    font-size: 2.5rem;
+}
+
+.rate {
+    margin-left: 1.5rem;
+}
