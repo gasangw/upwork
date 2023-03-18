@@ -92,3 +92,30 @@ top navbar */
     font-size: 1.5rem;
     font-family:'Courgette', cursive;;
 }
+
+@media(max-width: 769px){
+  .second-nav {
+    display: none;
+  }
+
+  .whole-nav {
+    max-width: 100%;
+  }
+
+  .nav-wrapper {
+    display: block;
+    text-align: left;    
+   }
+
+   .nav-container {
+    height: 100%;    
+    display: block;
+    gap: 5px;
+    padding: 0.1rem;
+    }
+
+    .search-area {
+      max-width: 100%;
+    }
+      
+}
