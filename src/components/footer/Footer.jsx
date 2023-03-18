@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
@@ -17,31 +18,31 @@ const Footer = () => {
           <p className="top-title">For Clients</p>
           <ul className="lists">
             <li>
-              <a href="#"></a>How to Hire
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>How to Hire
             </li>
             <li>
-              <a href="#"></a>Talent Marketplace
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Talent Marketplace
             </li>
             <li>
-              <a href="#"></a>Project Catalog
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Project Catalog
             </li>
             <li>
-              <a href="#"></a>Talent Scout
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Talent Scout
             </li>
             <li>
-              <a href="#"></a>Enterprise
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Enterprise
             </li>
             <li>
-              <a href="#"></a>Payroll Services
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Payroll Services
             </li>
             <li>
-              <a href="#"></a>Direct Contracts
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Direct Contracts
             </li>
             <li>
-              <a href="#"></a>Hire Worldwide
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Hire Worldwide
             </li>
             <li>
-              <a href="#"></a>Hire in the USA
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Hire in the USA
             </li>
           </ul>
         </div>
@@ -49,16 +50,16 @@ const Footer = () => {
           <p className="top-title">For Talent</p>
           <ul className="lists">
             <li>
-              <a href="#"></a>How to Find Work
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>How to Find Work
             </li>
             <li>
-              <a href="#"></a>Direct Contracts
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Direct Contracts
             </li>
             <li>
-              <a href="#"></a>Find Freelance Jobs Worldwide
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Find Freelance Jobs Worldwide
             </li>
             <li>
-              <a href="#"></a>Find Freelance Jobs in the USA
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Find Freelance Jobs in the USA
             </li>
           </ul>
         </div>
@@ -66,28 +67,28 @@ const Footer = () => {
           <p className="top-title">Resources</p>
           <ul className="lists">
             <li>
-              <a href="#"></a>Help & Support
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Help & Support
             </li>
             <li>
-              <a href="#"></a>Success Stories
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Success Stories
             </li>
             <li>
-              <a href="#"></a>Upwork Reviews
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Upwork Reviews
             </li>
             <li>
-              <a href="#"></a>Resources
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Resources
             </li>
             <li>
-              <a href="#"></a>Blog
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Blog
             </li>
             <li>
-              <a href="#"></a>Community
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Community
             </li>
             <li>
-              <a href="#"></a>Affiliate Program
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Affiliate Program
             </li>
             <li>
-              <a href="#"></a>Free Business tools
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Free Business tools
             </li>
           </ul>
         </div>
@@ -95,31 +96,31 @@ const Footer = () => {
           <p className="top-title">Company</p>
           <ul className="lists">
             <li>
-              <a href="#"></a>About Us
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>About Us
             </li>
             <li>
-              <a href="#"></a>Leadership
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Leadership
             </li>
             <li>
-              <a href="#"></a>Investor Relations
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Investor Relations
             </li>
             <li>
-              <a href="#"></a>Careers
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Careers
             </li>
             <li>
-              <a href="#"></a>Our Impact
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Our Impact
             </li>
             <li>
-              <a href="#"></a>Press
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Press
             </li>
             <li>
-              <a href="#"></a>Contact Us
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Contact Us
             </li>
             <li>
-              <a href="#"></a>Trust, Safety & Security
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Trust, Safety & Security
             </li>
             <li>
-              <a href="#"></a>Modern Slavery Statement
+              <a href="https://www.upwork.com/i/how-it-works/freelancer/"></a>Modern Slavery Statement
             </li>
           </ul>
         </div>
@@ -146,11 +147,11 @@ const Footer = () => {
      <AiOutlineCopyrightCircle />
      2015 - 2023 Upwork® Global Inc.
   </p>
-  <p><a href=''></a>Terms of Service</p>
-  <p><a href=''></a>Privacy Policy</p>
-  <p><a href=''></a>CA Notice at Collection</p>
-  <p><a href=''></a>Cookie Settings</p>
-  <p><a href=''></a>Accessibility</p>
+  <p><a href='https://www.upwork.com/i/how-it-works/freelancer/'></a>Terms of Service</p>
+  <p><a href='https://www.upwork.com/i/how-it-works/freelancer/'></a>Privacy Policy</p>
+  <p><a href='https://www.upwork.com/i/how-it-works/freelancer/'></a>CA Notice at Collection</p>
+  <p><a href='https://www.upwork.com/i/how-it-works/freelancer/'></a>Cookie Settings</p>
+  <p><a href='https://www.upwork.com/i/how-it-works/freelancer/'></a>Accessibility</p>
 </div>
 </div>
     </footer>
