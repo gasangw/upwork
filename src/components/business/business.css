@@ -71,3 +71,24 @@
 .rate {
     margin-left: 1.5rem;
 }
+
+@media(max-width: 769px){
+    .business-cont {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .mycart {
+      display: none;
+    }
+
+    .business-description > h1 {
+        font-size: 2.5rem;
+    }
+
+    .business-card-two {
+    padding: 2rem 0.3rem 0 1rem;
+    }
+}
